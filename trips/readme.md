@@ -5,3 +5,10 @@
 
 ## Wireframe
 ![](https://i.imgur.com/6RazHe0.png)
+
+### Technology used
+#### -Python
+#### -Django
+#### -Javascript
+#### -React
+#### -bit.io

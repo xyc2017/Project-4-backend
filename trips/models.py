@@ -1,9 +1,9 @@
 from django.db import models
 
 class Trips(models.Model):
-    country=models.CharField(max_length=100)
-    city=models.CharField(max_length=100)
-    From=models.DateField()
-    To=models.DateField()
-    notes=models.CharField(max_length=1000)
+    Country=models.CharField(max_length=100)
+    City=models.CharField(max_length=100)
+    From=models.DateField(auto_now=True)
+    To=models.DateField(auto_now=True)
+    Notes=models.CharField(max_length=1000)
     
